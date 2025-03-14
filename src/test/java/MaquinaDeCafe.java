@@ -14,7 +14,7 @@ public class MaquinaDeCafe {
     public void setAzucarero(Azucarero azucarero) {
         this.azucarero = azucarero;
     }
-
+    //Version Inicial del Metodo
     public String servirCafe(int cantidadCafe, int cantidadAzucar) {
         if (!vasos.hasVasos()) {
             return "No hay vasos";
