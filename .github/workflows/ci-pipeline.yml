@@ -1,7 +1,7 @@
 name: CI Pipeline
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, feature/test-ci ]  # Añadimos feature/test-ci
   pull_request:
     branches: [ main, develop ]
 
